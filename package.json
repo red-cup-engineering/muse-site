@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "wrangler": "4.123.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/muse-site.git"
   }
 }
