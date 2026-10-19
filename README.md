@@ -10,17 +10,17 @@ Use a shared VICTOR revision accepted under the canonical authored-home fabricat
 
 ## Stage and check a candidate
 
-From this site directory in the repository, use the existing publisher CLI directly with Node.js. This avoids requiring a globally installed command. After the authored-home predecessor is accepted and the work order is admitted, build into a new empty directory outside the serving tree:
+From this site directory, install the declared tool with `pnpm install --frozen-lockfile --ignore-scripts`, matching the normal Code registry receiving policy. The exact pinned publisher is received from the registry; no monorepo-relative source checkout or global command is required. After the authored-home predecessor is accepted and the work order is admitted, build into a new empty directory outside the serving tree:
 
-    node ../../../../../../../../../computer-knowledge-systems-services-section/apps/static-site-publisher/scripts/static-site-publisher.mjs build content /tmp/muse-assist-site-candidate --config=static-site-publisher.config.mjs
+    pnpm exec static-site-publisher build content /tmp/muse-assist-site-candidate --config=static-site-publisher.config.mjs
 
 Run the publisher's configured double-build check:
 
-    node ../../../../../../../../../computer-knowledge-systems-services-section/apps/static-site-publisher/scripts/static-site-publisher.mjs check content --config=static-site-publisher.config.mjs
+    pnpm exec static-site-publisher check content --config=static-site-publisher.config.mjs
 
 For a local draft preview, bind only to loopback:
 
-    node ../../../../../../../../../computer-knowledge-systems-services-section/apps/static-site-publisher/scripts/static-site-publisher.mjs serve content --host=127.0.0.1 --port=8561 --config=static-site-publisher.config.mjs
+    pnpm exec static-site-publisher serve content --host=127.0.0.1 --port=8561 --config=static-site-publisher.config.mjs
 
 These commands are documented publisher interfaces, not evidence they have run for this candidate. A candidate remains unaccepted until the exact staged bytes pass manifest/refusal checks and independent reading, claim, accessibility, route, and no-script checks required by the site LLD. A local preview is not deployment.
 
