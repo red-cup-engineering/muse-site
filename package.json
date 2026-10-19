@@ -9,6 +9,7 @@
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
+    "@red-cup-engineering/static-site-publisher": "0.1.17",
     "wrangler": "4.123.0"
   },
   "repository": {

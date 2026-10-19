@@ -1,0 +1,4 @@
+minimumReleaseAge: 1440
+minimumReleaseAgeStrict: true
+minimumReleaseAgeExclude:
+  - '@red-cup-engineering/static-site-publisher@0.1.17'
