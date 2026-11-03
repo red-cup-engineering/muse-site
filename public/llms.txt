@@ -1,0 +1,29 @@
+# muse-assist
+
+> A 561 Group early-alpha project designing personal, virtual, and executive assistance as a specialized MetroPlat server.
+
+muse-assist is an early-alpha Red Cup Engineering project to design personal, virtual and executive assistance as a specialized server on MetroPlat, the 561 Group's agentic-enterprise platform. It is not released: there is no hosted assistant and no supported public package, and the licence is undecided. Meta's Muse is a separate product and is only a reference. This site states design targets and what evidence exists, and claims no parity or measured advantage.
+
+## How to use this site
+
+There is nothing to install or sign in to. Read the pages below; the feeds list dated changes.
+
+## Pages
+
+- [muse-assist](https://muse.561.group/): What the project is, its design targets and its release state.
+- [Development method and status](https://muse.561.group/development/): How the design is derived from customer demand and what remains unaccepted.
+- [Assistant references and evidence limits](https://muse.561.group/comparison/): A dated comparison separating supplier descriptions, muse-assist intent and independent observations.
+
+## Feeds
+
+- [RSS](https://muse.561.group/feed.rss.xml), [Atom](https://muse.561.group/feed.atom.xml) and [JSON Feed](https://muse.561.group/feed.json) of dated updates.
+
+## Publisher
+
+Red Cup Engineering, the 561 Group's engineering company: https://engineering.561.group/
+
+## 561 Group
+
+- [Play](https://play.561.group/): The 561 Group's browser games.
+- [Causeway Services](https://services.561.group/): The 561 Group's public-services company: guides, games, news and an x402 market.
+- [561 Group](https://561.group/): The group and its four companies.

@@ -1,0 +1,19 @@
+{
+  "host": "muse.561.group",
+  "name": "muse-assist",
+  "kind": "app",
+  "appType": "SoftwareApplication",
+  "applicationCategory": "BusinessApplication",
+  "company": "redcup",
+  "title": "muse-assist: personal and executive assistance in development",
+  "description": "A 561 Group early-alpha project designing personal, virtual, and executive assistance as a specialized MetroPlat server.",
+  "tagline": "Personal and executive assistance, in development",
+  "root": "public",
+  "pages": [
+    { "file": "index.html", "path": "/" },
+    { "file": "comparison/index.html", "path": "/comparison/", "title": "Assistant references and evidence limits | muse-assist", "description": "A dated comparison frame separating supplier descriptions, muse-assist intent, and independent observations." },
+    { "file": "development/index.html", "path": "/development/", "title": "Development method and status | muse-assist", "description": "How muse-assist is being derived from customer demand, what repository capabilities are evidence, and what remains unaccepted." }
+  ],
+  "sitemap": ["/", "/comparison/", "/development/"],
+  "llms": "muse-assist is an early-alpha Red Cup Engineering project to design personal, virtual and executive assistance as a specialized server on MetroPlat, the 561 Group's agentic-enterprise platform. It is not released: there is no hosted assistant and no supported public package, and the licence is undecided. Meta's Muse is a separate product and is only a reference. This site states design targets and what evidence exists, and claims no parity or measured advantage.\n\n## How to use this site\n\nThere is nothing to install or sign in to. Read the pages below; the feeds list dated changes.\n\n## Pages\n\n- [muse-assist](https://muse.561.group/): What the project is, its design targets and its release state.\n- [Development method and status](https://muse.561.group/development/): How the design is derived from customer demand and what remains unaccepted.\n- [Assistant references and evidence limits](https://muse.561.group/comparison/): A dated comparison separating supplier descriptions, muse-assist intent and independent observations.\n\n## Feeds\n\n- [RSS](https://muse.561.group/feed.rss.xml), [Atom](https://muse.561.group/feed.atom.xml) and [JSON Feed](https://muse.561.group/feed.json) of dated updates.\n\n## Publisher\n\nRed Cup Engineering, the 561 Group's engineering company: https://engineering.561.group/"
+}
